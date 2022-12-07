@@ -6,4 +6,37 @@ h1 {
     color: var(--main-text-color);
     text-decoration: none;
 }
+
+.header__menu-item:hover {
+    text-decoration: underline;
+}
+
+.nav__button {
+    color: var(--accent-color)
+}
+
+.header__upper-title::first-letter {
+    color: rgb(16,136,228)
+}
+
+.header__pricing-button {
+    text-decoration: none;
+    color: var(--accent-color)
+}
+
+.header__pricing-button:hover {
+    text-decoration: underline;
+}
+
+.header__learnmore {
+    text-decoration: none;
+    color: var(--accent-color)
+}
+
+.header__learnmore:hover {
+    text-decoration: underline;
+}
+
+.header__container {
+    color: rgb(137,137,137)
 }
