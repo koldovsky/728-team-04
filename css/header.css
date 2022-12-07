@@ -40,3 +40,13 @@ h1 {
 .header__container {
     color: rgb(137,137,137)
 }
+
+.header__learnmore-button {
+    text-decoration: none;
+    color: var(--accent-color)
+    
+}
+
+.header__learnmore-button:hover {
+    text-decoration: underline;
+}
