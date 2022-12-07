@@ -1,0 +1,9 @@
+h1 {
+    color: var(--accent-color);
+}
+
+.header__menu-item {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+}
