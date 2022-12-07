@@ -7,8 +7,8 @@
 @import url(best-offer.css);
 @import url(send-a-request.css);
 @import url(offices.css);
-@import url(rent-a-car.css);
-@import url(top-manufacturers.css);
+@import url(rent-a-car.css);         /* Блок 9 */
+@import url(top-manufacturers.css);  /* Блок 10 */
 @import url(rates.css);
 @import url(staff.css);
 @import url(testimonials.css);
