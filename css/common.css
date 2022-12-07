@@ -14,17 +14,6 @@
     --accent-color: rgb(246,196,61);
 }
 
-h2 {
-    font-size: 65px;
-    color: #222;
-    line-height: 1;
-    font-family: Barlow Condensed,sans-serif;
-    font-weight: 700;
-    text-transform: none;
-    text-decoration: none;
-    font-style: normal;
-    letter-spacing: 0;
-}
 /*
 Тимчасово не використовується
 img {

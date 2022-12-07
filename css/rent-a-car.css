@@ -1,3 +1,27 @@
 h1 {
     color: var(--accent-color);
 }
+
+.rent-a-car__section-title {
+    color: var(--accent-color)
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .1em;
+    color: #b3b3b3;
+    text-transform: none;
+}
+
+h2 {
+    font-size: 65px;
+    color: #222;
+    line-height: 1;
+    font-family: Barlow Condensed,sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+}
