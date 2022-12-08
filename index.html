@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Rental</title>
     <link rel="shortcut icon" href="img/sitelogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -22,35 +23,43 @@
 =======
     <header>
         <nav class="header__nav">
-            <div class="header__logo"> <img width="100" src="img/logo.png" alt="CarRentalLogo"> </div>
-            <div class="header__menu"> <a href="#aboutUs" class="header__menu-item">About us</a> <a
-                    href="#carsOfTheMonth" class="header__menu-item">Cars of the month</a> <a href="#pricing"
-                    class="header__menu-item">Pricing</a> <a href="#testimonials"
-                    class="header__menu-item">Testimonials</a> <a href="#contactUs" class="header__menu-item">Contact
-                    us</a>
-                <form action="https://www.facebook.com/"> <button type="submit">Facebook</button> </form>
-                <form action="https://www.instagram.com/"> <button type="submit">Instagram</button> </form>
-                <form action="https://www.youtube.com/"> <button type="submit">Youtube</button> </form> <img width="15"
-                    src="img/facebooklogo.png" alt="Facebook"> <img width="15" src="img/instagramlogo.png"
-                    alt="Instagram"> <img width="15" src="img/youtubelogo.png" alt="Youtube">
+            <div class="header__logo">
+                <img width="100" src="img/logo.png" alt="CarRentalLogo">
+            </div>
+            <div class="header__menu">
+                <a href="#aboutUs" class="header__menu-item">About us</a>
+                <a href="#carsOfTheMonth" class="header__menu-item">Cars of the month</a>
+                <a href="#pricing" class="header__menu-item">Pricing</a>
+                <a href="#testimonials" class="header__menu-item">Testimonials</a>
+                <a href="#contactUs" class="header__menu-item">Contact us</a>
+                <form action="https://www.facebook.com/"> <button class="nav__button" type="submit">Facebook</button> </form>
+                <form action="https://www.instagram.com/"> <button class="nav__button" type="submit">Instagram</button> </form>
+                <form action="https://www.youtube.com/"> <button class="nav__button" type="submit">Youtube</button> </form>
+                <img width="15" src="img/facebooklogo.png" alt="Facebook">
+                <img width="15" src="img/instagramlogo.png" alt="Instagram">
+                <img width="15" src="img/youtubelogo.png" alt="Youtube">
             </div>
             <div class="header__banner">
                 <p class="header__upper-title">- Comfortable driving in NYC</p>
-                <h1 class="header__title">Car Rental</h1> <a href="#aboutUs"
-                    class="header__learnmore-button button">Learn more</a> <a href="#pricing"
-                    class="header__pricing-button button">Pricing</a>
+                <h1 class="header__title">Car Rental</h1>
+                <a href="#aboutUs" class="header__learnmore-button button">Learn more</a>
+                <a href="#pricing" class="header__pricing-button button">Pricing</a>
             </div>
-            <div class="header__bottom"> <img width="300" src="img/whitecar.png" alt="whiteCar"> <img width="300"
-                    src="img/bluecar.png" alt="whiteCar"> <img width="300" src="img/blackcar.png" alt="whiteCar">
+            <div class="header__bottom">
+                <img width="300" src="img/whitecar.png" alt="whiteCar">
+                <img width="300" src="img/bluecar.png" alt="whiteCar">
+                <img width="300" src="img/blackcar.png" alt="whiteCar">
                 <h2>SUVs</h2>
-                <p>No obstacles on your way can spoil the trip.</p> <a href="#sendARequest"
-                    class="header__menu-item">Learn more</a> <br>
+                <p class="header__container">No obstacles on your way can spoil the trip.</p>
+                <a href="#sendARequest" class="header__learnmore">Learn more</a>
+                <br>
                 <h2>Sport Cars</h2>
-                <p>Feel what true speed and freedom are.</p> <a href="#sendARequest" class="header__menu-item">Learn
-                    more</a> <br>
+                <p class="header__container">Feel what true speed and freedom are.</p>
+                <a href="#sendARequest" class="header__learnmore">Learn more</a>
+                <br>
                 <h2>Luxury</h2>
-                <p>Comfortable cars for demanding clients.</p> <a href="#sendARequest" class="header__menu-item">Learn
-                    more</a>
+                <p class="header__container">Comfortable cars for demanding clients.</p>
+                <a href="#sendARequest" class="header__learnmore">Learn more</a>
             </div>
         </nav>
     </header>
@@ -191,9 +200,11 @@
         <!-- part 6. Oleksandr Tulush-->
         <section class="best-offer">
             <div class="best-offer__info">
-                <p id="best-offer" class="best-offer__info-subtitle">— BEST OFFER</p>                    <!--Яворський Т: я додав id="best-offer" щоб моя кнопка могла послати фокус сюди-->
+                <p id="best-offer" class="best-offer__info-subtitle">— BEST OFFER</p>
+                <!--Яворський Т: я додав id="best-offer" щоб моя кнопка могла послати фокус сюди-->
                 <h2 class="best-offer__info-title">Cars of the Month</h2>
-                <p class="best-offer__info-text">Contact us right now and take advantage of the special offer. Get 10% when
+                <p class="best-offer__info-text">Contact us right now and take advantage of the special offer. Get 10%
+                    when
                     renting any car of the month, for any period!</p>
             </div>
             <div class="best-offer__proposal proposal">
@@ -223,46 +234,58 @@
             <div class="send-request__info">
                 <p class="send-request__info-subtitle">— SEND A REQUEST</p>
                 <h2 class="send-request__info-title">Need to Rent a Luxury Car?</h2>
-                <p class="send-request__info-text">Complete the form below and we'll contact you as soon as possible!</p>
+                <p class="send-request__info-text">Complete the form below and we'll contact you as soon as possible!
+                </p>
             </div>
             <form class="send-request__form" action="https://formspree.io/f/mjvznrnl" method="post">
-                <input class="send-request__form-fullname" type="text" placeholder="Enter your full name*" required name="full-name">
-                <input class="send-request__form-tel" type="tel" placeholder="Enter your phone number*" required name="phone-number">
-                <input class="send-request__form-email" type="email" placeholder="Enter your email*" required name="email">
+                <input class="send-request__form-fullname" type="text" placeholder="Enter your full name*" required
+                    name="full-name">
+                <input class="send-request__form-tel" type="tel" placeholder="Enter your phone number*" required
+                    name="phone-number">
+                <input class="send-request__form-email" type="email" placeholder="Enter your email*" required
+                    name="email">
                 <input class="send-request__form-message" type="text" placeholder="Type your message" name="message">
                 <input class="send-request__form-button" type="submit" value="Request a qoute">
             </form>
         </section>
         <!-- end part 7 -->
 
-        <!--Start Block8 Yavorskyy's attempt-->
+        
+        <!--#region Offices-->
         <section class="offices">
             <p id="offices" class="offices__section-title">— OFFICES</p>
             <h2 class="offices__title">Pick up Your Car</h2>
-            <p class="offices__details">Our company is always ready to help people who urgently need an executive car. Come to our office, fill out the documents, and pick up your car!</p>
-            
+            <p class="offices__details">Our company is always ready to help people who urgently need an executive car.
+                Come to our office, fill out the documents, and pick up your car!</p>
+
             <div class="offices__visualization-pics">
-                <a class="offices__visualization-picture1" href="#"><img width="300" src="./img/office-wizual-pic1.jpg" alt="Customers in a car rental office picture 1"></a>
-                <a class="offices__visualization-picture2" href="#"><img width="300" src="./img/office-wizual-pic2.jpg" alt="Customers in a car rental office picture 2"></a>
-                <a class="offices__visualization-picture3" href="#"><img width="300" src="./img/office-wizual-pic3.png" alt="Customers in a car rental office picture 3"></a>
-                <a class="offices__visualization-picture4" href="#"><img width="300" src="./img/office-wizual-pic4.png" alt="Customers in a car rental office picture 4"></a>
+                <a class="offices__visualization-picture1" href="#"><img width="300" src="./img/office-wizual-pic1.jpg"
+                        alt="Customers in a car rental office picture 1"></a>
+                <a class="offices__visualization-picture2" href="#"><img width="300" src="./img/office-wizual-pic2.jpg"
+                        alt="Customers in a car rental office picture 2"></a>
+                <a class="offices__visualization-picture3" href="#"><img width="300" src="./img/office-wizual-pic3.png"
+                        alt="Customers in a car rental office picture 3"></a>
+                <a class="offices__visualization-picture4" href="#"><img width="300" src="./img/office-wizual-pic4.png"
+                        alt="Customers in a car rental office picture 4"></a>
             </div>
 
         </section>
-        <!--The end of Block 8-->
+        <!--#region Offices-->
 
         <!--Start Block9, Block 10 - Yavorskyy Taras-->
         <section class="rent-a-car">
             <p id="rent-a-car" class="rent-a-car__section-title">— RENT A CAR</p>
             <h2 class="rent-a-car__title">Executive Cars at Favorable Rates</h2>
-            <p class="rent-a-car__details">Rent a comfortable and good-looking car for any period. Corporate discounts are available.</p>
-            
+            <p class="rent-a-car__details">Rent a comfortable and good-looking car for any period. Corporate discounts
+                are available.</p>
+
             <div class="rent-a-car__go-away-buttons">
                 <a href="#contacts" class="rent-a-car__contacts-button button">CONTACTS</a>
                 <a href="#best-offer" class="rent-a-car__best-offer-button button">BEST OFFERS</a>
             </div>
-            
-            <img class="background__item-image" src="./img/background-with-a-red-sedan-1920px.png" width="400" alt="background-with-a-red-sedan">
+
+            <img class="background__item-image" src="./img/background-with-a-red-sedan-1920px.png" width="400"
+                alt="background-with-a-red-sedan">
         </section>
 
         <section class="top-manufacturers">
@@ -278,7 +301,50 @@
             </div>
         </section>
         <!--The end of Block 9, Block10-->
-
+        <!-- Start block RATES - Yuliia Maiovka -->
+        <section class="rates">
+            <div class="rates_main_content">
+                <p class="rates_section_title">-RATES</p>
+                <h2 class="rates_tittle">Clear Pricing</h2>
+                <p class="rates_subtitle">You pay not for the model of the car but for its class. We offer not only the
+                    best
+                    luxury cars but also the most favorable conditions for any rental period. </p>
+                <p class="rates_section_title">-SUVs</p>
+                <p class="rates_section_subtitle">$150</h2>
+                <p class="rates__section_subtitle">per day</p>
+                <ul class="rates_icon_list">
+                    <li class="rates_icon_list_item">Ford Everest</li>
+                    <li class="rates_icon_list_item">Nissan X-Trail</li>
+                    <li class="rates_icon_list_item">Suzuki Escudo or similar</li>
+                </ul>
+                <div class="rates_button">
+                    <a href="#SEND A REQUEST" class="rates_section_button">RENT A CAR</a>
+                </div>
+                <p class="rates_section_title">-LUXURY</p>
+                <p class="rates_section_subtitle">$390</h2>
+                <p class="rates__section_subtitle">per day</p>
+                <ul class="rates_icon_list">
+                    <li class="rates_icon_list_item">Lexus SX350</li>
+                    <li class="rates_icon_list_item">Jaguar XF</li>
+                    <li class="rates_icon_list_item">Audi A6 or similar</li>
+                </ul>
+                <div class="rates_button">
+                    <a href="#SEND A REQUEST" class="rates_section_button">RENT A CAR</a>
+                </div>
+                <p class="rates_section_title">-LUXURY</p>
+                <p class="rates_section_subtitle">$500</h2>
+                <p class="rates__section_subtitle">per day</p>
+                <ul class="rates_icon_list">
+                    <li class="rates_icon_list_item">McLaren Senna</li>
+                    <li class="rates_icon_list_item">Porsche 911 GT2 RS</li>
+                    <li class="rates_icon_list_item">Ford GT or similar</li>
+                </ul>
+                <div class="rates_button">
+                    <a href="#SEND A REQUEST" class="rates_section_button">RENT A CAR</a>
+                </div>
+            </div>
+        </section>
+        <!-- End block RATES - Yuliia Maiovka -->
         <!-- Start block STAFF - Yurii Ubohyi -->
         <section class="staff">
             <div class="staff_maine-content">
@@ -426,10 +492,54 @@
             </div>
         </section>
         <!-- End block FEEDBACK - Yurii Ubohyi -->
+         <!-- start blok 14 -->
+
+         <section class="faq">
+            <div>
+                <p class="faq__informations">— FAQ</p>
+                
+                            <h2 class="faq__title">Frequently Asked Questions</h2>
+                <p>We offer simple and transparent car rental conditions for any period. Look through the <br>
+                    information below, and if you have any questions, we will be happy to answer them.</p>
+                <div>
+                    <h3 class="faq__service">How can I rent a car with your service?</h3>
+                    <p class="reply__servises">You should come to our office or call us. <br>
+                        Our specialist will help with the selection and make out the documents. </p>
+                </div>
+                <div>
+                    <h3 class="faq__pick up the car"> How long does it take to pick up the car?</h3>
+                    <p class="reply__pick up the car">You will have to wait no more than 20 minutes,<br>
+                        and then you'll be able to pick up the car wherever you want.</p>
+                </div>
+                <div>
+                    <h3 class="faq__rental period">What is the minimum rental period?</h3>
+                    <p class="reply__period">You can rent a car even for 1 day. The maximum period is not provided. <br>
+                        We offer discounts for 10+ days of rental.</p>
+                </div>
+                <div>
+                    <h3 class="faq__rental period">What if I want to extend the rental period?</h3>
+                    <p class="reply__rental period">Just call our manager and ask to extend the rental period. <br>
+                        The total amount will be charged from the card automatically. </p>
+                </div>
+                <div>
+                    <h3 class="faq__pay rental">How do I pay for the rental period?</h3>
+                    <p class="reply__pay rental">Before you pick up the car, specify your credit card details. <br>
+                        When you return the car, we charge the total amount. </p>
+                </div>
+                <div>
+                    <h3 class="faq__restrictions">Do you have any age or other restrictions?</h3>
+                    <p class="Each driver should have a valid drivers license for the duration of the 
+                                     rental period and be at least age 18."></p>
+                </div>
+
+            </div>
+        </section>
+        <!-- end block 14 -->
 
         <!-- Block 15 Yavorskyy for Chepernatyy-->
-        <section class="rent-a-car">
-            <p id="contacts" class="contacts__section-title">— FASTCAR HEADQUARTER</p>       <!--Яворський Т: я зробив цей кусочок коду з id="contacts" щоб моя кнопка могла послати фокус сюди-->
+        <section class="contacts">
+            <p id="contacts" class="contacts__section-title">— FASTCAR HEADQUARTER</p>
+            <!--Яворський Т: я зробив цей кусочок коду з id="contacts" щоб моя кнопка могла послати фокус сюди-->
             <h2 class="contacts__title">Contacts</h2>
 
         </section>
