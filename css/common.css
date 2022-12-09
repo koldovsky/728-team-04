@@ -27,6 +27,10 @@
     text-transform: none;
 }
 
+body {
+    background-color: rgb(246,246,246);
+}
+
 /*
 Тимчасово не використовується
 img {
