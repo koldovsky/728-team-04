@@ -1,0 +1,99 @@
+.feedback {
+
+    padding: 110px 0px 120px;
+}
+
+.feedback__container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.feedback__title {
+    font-family: Barlow Condensed, sans-serif;
+    color: #222;
+    font-size: 65px;
+    text-align: center;
+    /* неможу визначити відступи в макеті виставив приблизно*/
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+.feedback__section-title {
+    font-family: Ubuntu, sans-serif;
+    color: #f6c43d;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    /* вирівнюємо по центру текст */
+    text-align: center;
+    line-height: 22.4px;
+}
+
+.feedback__subtitle {
+    font-family: Ubuntu, sans-serif;
+    color: #222;
+    font-size: 18px;
+    letter-spacing: -.018em;
+    text-align: center;
+    /* неможу визначити відступи в макеті виставив приблизно*/
+    margin-bottom: 50px;
+}
+
+.feedback__carousel-slide {
+    margin: 0 auto;
+}
+
+.slide__image {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.slide__title {
+    font-family: Barlow Condensed, sans-serif;
+    color: #222;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: -.02em;
+    /* неможу визначити відступи в макеті виставив приблизно*/
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.slide__position {
+    font-family: Ubuntu, sans-serif;
+    color: #b3b3b3;
+    font-size: 14px;
+    font-style: bold;
+    /* не застосовується жирний шрифт*/
+    letter-spacing: .1em;
+    text-align: center;
+    /* неможу визначити відступи в макеті виставив приблизно*/
+    margin-bottom: 50px;
+}
+
+.slide__description {
+    font-family: Ubuntu, sans-serif;
+    color: #898989;
+    font-size: 17px;
+    text-align: center;
+    /* неможу визначити відступи в макеті виставив приблизно*/
+    margin-bottom: 50px;
+}
+
+.slide__post-date {
+    font-family: Ubuntu, sans-serif;
+    color: #b3b3b3;
+    font-size: 14px;
+    letter-spacing: .1em;
+    text-align: center;
+    /* неможу визначити відступи в макеті виставив приблизно*/
+    margin-bottom: 50px;
+}
