@@ -12,12 +12,12 @@
 .top-manufacturers__info {
     box-sizing: border-box;
     min-width: 320px;
-    max-width: 470px;
-    text-align: center;
-    flex-basis: 41.66667%;
+    max-width: 370px;
+    text-align: left;
+    flex-basis: 430px;
 }
 .top-manufacturers__autobrands-carrousel {
-    flex-basis: 58.33333%;
+    flex-basis: calc(100% - 430px);;
 }
 .top-manufacturers__section-title {
     box-sizing: border-box;
@@ -28,7 +28,6 @@
     font-weight: 700;
     letter-spacing: 1.4px;
     line-height: 22.4px;
-    text-align: center;
     text-decoration: none;
     text-transform: none;
 }
@@ -46,5 +45,6 @@
 }
 .top-manufacturers__details {
     font-family: var(--main-font);
+    color: var(--white-text-color);
     line-height: 30px;
 }
