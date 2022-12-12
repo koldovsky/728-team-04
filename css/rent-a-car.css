@@ -26,3 +26,22 @@ h1 {
     font-style: normal;
     letter-spacing: 0;
 }
+
+rent-a-car__contacts-button {
+    border: 1px solid gold; /* Параметри рамки */
+    padding: 12px 30px 12px 30px; /* Поля навколо тексту */
+    background-color: gold;
+    margin: 10px; /* відступи навкруги рамки */
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .rent-a-car__best-offer-button {
+    border: 1px solid #666; /* Параметри рамки */
+    padding: 12px 30px 12px 30px; /* Поля навколо тексту */
+    background-color: white;
+    margin: 10px; /* відступи навкруги рамки */
+    border-radius: 20px;
+    color: #666;
+    text-decoration: none
+  }
