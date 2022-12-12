@@ -27,21 +27,31 @@ h1 {
     letter-spacing: 0;
 }
 
-rent-a-car__contacts-button {
-    border: 1px solid gold; /* Параметри рамки */
-    padding: 12px 30px 12px 30px; /* Поля навколо тексту */
-    background-color: gold;
-    margin: 10px; /* відступи навкруги рамки */
-    border-radius: 20px;
-    color: white;
+.button {
     text-decoration: none;
+    padding: 12px 30px 12px 30px; /* Поля навколо тексту */
+    border-radius: 20px;
+    margin: 10px; /* відступи навкруги */
+
+  }
+  .rent-a-car__contacts-button {
+    border: 1px solid gold; /* Параметри рамки */
+    background-color: gold;
+    color: white;
+    
   }
   .rent-a-car__best-offer-button {
     border: 1px solid #666; /* Параметри рамки */
-    padding: 12px 30px 12px 30px; /* Поля навколо тексту */
     background-color: white;
-    margin: 10px; /* відступи навкруги рамки */
-    border-radius: 20px;
     color: #666;
-    text-decoration: none
+
+  }
+  .rent-a-car__contacts-button:hover {
+    border: 1px solid blue; /* Параметри рамки */
+    background-color: blue;
+  }
+  .rent-a-car__best-offer-button:hover {
+    border: 1px solid black; /* Параметри рамки */
+    background-color: black;
+    color: white;
   }
