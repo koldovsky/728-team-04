@@ -45,7 +45,7 @@
 .staff__subtitle {
     box-sizing: border-box;
     color: rgba(255, 255, 255, 0.67);
-    font-family: Ubuntu, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     letter-spacing: -.022em;
     line-height: 30px;
@@ -55,42 +55,35 @@
 }
 
 .staff__team-members-list {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
+    place-items: center; */
 
-    /* інший варіант
+    /* інший варіант */
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-items: center; */
+    flex-direction: column;
+    justify-content: center;
 }
 
 .staff__team-person-card {
     padding: 0px 15px;
     margin-top: 30px;
+    margin: auto;
+}
+
+.staff__photo-person-container {
+    overflow: hidden;
+    width: 370px;
+    height: 493px;
+    border-radius: 7px;
+    margin-top: 30px;
 }
 
 .staff__photo-person {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    width: 370px;
-    height: 492px;
-    /* не розумію який максимальний розмір зображення, при різних розмірах вікна браузера інше показує */
-    border-radius: 7px;
-    /* не можу знайти який має бути радіус в макеті зробив приблизно */
-}
-
-.staff__photo-person img {
     object-fit: cover;
-    position: absolute;
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
+    object-position: 50% 10%;
     width: 100%;
     height: 100%;
-    /* не знаю як змістити зображення по висоті, деякі фото не підігнано добре */
 }
 
 .staff_person-name {
