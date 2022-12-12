@@ -35,23 +35,23 @@ h1 {
 
   }
   .rent-a-car__contacts-button {
-    border: 1px solid gold; /* Параметри рамки */
-    background-color: gold;
-    color: white;
+    border: 1px solid var(--accent-color); /* Параметри рамки */
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
     
   }
   .rent-a-car__best-offer-button {
-    border: 1px solid #666; /* Параметри рамки */
-    background-color: white;
-    color: #666;
+    border: 1px solid var(--grey-text-color); /* Параметри рамки */
+    background-color: var(--white-text-color);
+    color: var(--grey-text-color);
 
   }
   .rent-a-car__contacts-button:hover {
-    border: 1px solid blue; /* Параметри рамки */
-    background-color: blue;
+    border: 1px solid var(--hover-button-color); /* Параметри рамки */
+    background-color: var(--hover-button-color);
   }
   .rent-a-car__best-offer-button:hover {
-    border: 1px solid black; /* Параметри рамки */
-    background-color: black;
-    color: white;
+    border: 1px solid var(--grey-text-color); /* Параметри рамки */
+    background-color: var(--grey-text-color);
+    color: var(--white-text-color);
   }
