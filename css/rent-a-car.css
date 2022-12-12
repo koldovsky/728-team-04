@@ -41,13 +41,13 @@
 .rent-a-car__title {
     font-size: 65px;
     color: var(--main-text-color);
-    line-height: 1;
     font-family: var(--title-font);
+    font-style: normal;
     font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
     text-transform: none;
     text-decoration: none;
-    font-style: normal;
-    letter-spacing: 0;
     padding: 10px;
 }
 .rent-a-car__go-away-buttons {
