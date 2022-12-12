@@ -3,17 +3,25 @@ h1 {
 }
 
 .rent-a-car {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     min-width: 320px;
     background-image: url(../img/background-with-a-red-sedan-1920px.png);
     background-size: cover;
     background-position: 50% 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .rent-a-car__info {
     box-sizing: border-box;
-    width: 470px;
+    min-width: 320px;
+    max-width: 470px;
     text-align: center;
+    flex-basis: 41.66667%
+}
+.rent-a-car__rest-of-info-field {
+    flex-basis: 58.33333%
 }
 .rent-a-car__details {
     line-height: 30px;
