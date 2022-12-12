@@ -15,6 +15,7 @@
     max-width: 370px;
     text-align: left;
     flex-basis: 430px;
+    padding: 30px 30px 30px 30px;
 }
 .top-manufacturers__autobrands-carrousel {
     flex-basis: calc(100% - 430px);;
@@ -45,6 +46,7 @@
 }
 .top-manufacturers__details {
     font-family: var(--main-font);
-    color: var(--white-text-color);
+    font-size: 20px;
+    color: var(--light-grey-text-color);
     line-height: 30px;
 }
