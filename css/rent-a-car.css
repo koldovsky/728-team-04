@@ -26,32 +26,43 @@ h1 {
     font-style: normal;
     letter-spacing: 0;
 }
-
+.background__item-image {
+  background-image: url(./img/background-with-a-red-sedan-1920px.png);
+  /*background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)  ) , url(../img/baby-yoda.svg);*/
+  background-size: cover;
+  /* background-attachment: fixed; */
+  min-height: 400px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .button {
     text-decoration: none;
     padding: 12px 30px 12px 30px; /* Поля навколо тексту */
     border-radius: 20px;
     margin: 10px; /* відступи навкруги */
 
-  }
-  .rent-a-car__contacts-button {
+ }
+.rent-a-car__contacts-button {
     border: 1px solid var(--accent-color); /* Параметри рамки */
     background-color: var(--accent-color);
     color: var(--white-text-color);
     
-  }
-  .rent-a-car__best-offer-button {
+}
+.rent-a-car__best-offer-button {
     border: 1px solid var(--grey-text-color); /* Параметри рамки */
     background-color: var(--white-text-color);
     color: var(--grey-text-color);
 
-  }
-  .rent-a-car__contacts-button:hover {
+}
+.rent-a-car__contacts-button:hover {
     border: 1px solid var(--hover-button-color); /* Параметри рамки */
     background-color: var(--hover-button-color);
-  }
-  .rent-a-car__best-offer-button:hover {
+}
+.rent-a-car__best-offer-button:hover {
     border: 1px solid var(--grey-text-color); /* Параметри рамки */
     background-color: var(--grey-text-color);
     color: var(--white-text-color);
-  }
+}
