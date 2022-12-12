@@ -1,7 +1,21 @@
-h1 {
-    color: var(--accent-color);
+.top-manufacturers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    min-width: 320px;
+    background-color: var(--main-text-color);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-
+.top-manufacturers__info {
+    box-sizing: border-box;
+    min-width: 320px;
+    max-width: 470px;
+    text-align: center;
+    flex-basis: 41.66667%
+}
 .top-manufacturers__section-title {
     box-sizing: border-box;
     color: var(--accent-color);
@@ -13,4 +27,16 @@ h1 {
     text-align: center;
     text-decoration: none;
     text-transform: none;
+}
+.top-manufacturers__title {
+    font-size: 65px;
+    color: #222;
+    line-height: 1;
+    font-family: Barlow Condensed,sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    padding: 10px;
 }
