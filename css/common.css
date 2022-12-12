@@ -12,7 +12,7 @@
     font-family: 'Ubuntu', sans-serif;
     --main-text-color: rgb(0, 0, 0);
     --accent-color: rgb(246,196,61);
-    --hover-button-color: rgb(16,136,228); //#1088e4
+    --hover-button-color: rgb(16,136,228); /* #1088e4 */
     --white-text-color: rgb(255,255,255);
     --grey-text-color: #666;
     --black-text-color: #222;
