@@ -15,6 +15,9 @@ h1 {
     width: 470px;
     text-align: center;
 }
+.rent-a-car__details {
+    line-height: 30px;
+}
 .rent-a-car__section-title {
     box-sizing: border-box;
     color: var(--accent-color);
@@ -26,6 +29,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     text-transform: none;
+    padding-top: 20px;
 }
 
 .rent-a-car__title {
@@ -38,12 +42,20 @@ h1 {
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0;
+    padding: 10px;
 }
+.rent-a-car__go-away-buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .button {
     text-decoration: none;
     padding: 12px 30px 12px 30px; /* Поля навколо тексту */
     border-radius: 20px;
-    margin: 100px; /* відступи навкруги */
+    margin: 100px 10px 100px 10px; /* відступи навкруги */
  }
 .rent-a-car__contacts-button {
     border: 1px solid var(--accent-color); /* Параметри рамки */
