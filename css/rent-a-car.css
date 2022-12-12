@@ -2,6 +2,19 @@ h1 {
     color: var(--accent-color);
 }
 
+.rent-a-car {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    min-width: 320px;
+    background-image: url(../img/background-with-a-red-sedan-1920px.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.rent-a-car__info {
+    box-sizing: border-box;
+    width: 470px;
+    text-align: center;
+}
 .rent-a-car__section-title {
     box-sizing: border-box;
     color: var(--accent-color);
@@ -25,18 +38,6 @@ h1 {
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0;
-}
-.background__item-image {
-  background-image: url(./img/background-with-a-red-sedan-1920px.png);
-  /*background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)  ) , url(../img/baby-yoda.svg);*/
-  background-size: cover;
-  /* background-attachment: fixed; */
-  min-height: 400px;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 .button {
     text-decoration: none;
