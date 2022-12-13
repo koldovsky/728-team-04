@@ -4,8 +4,9 @@
 }
 
 .feedback__container {
-    max-width: 1170px;
+    max-width: 1200px;
     min-width: 320px;
+    padding: 0 15px;
     margin: auto;
 }
 
@@ -13,8 +14,8 @@
     box-sizing: border-box;
     color: var(--accent-color);
     font-size: 14px;
-    font-weight: 700;
-    letter-spacing: .1em;
+    font-weight: bold;
+    letter-spacing: 1.4px;
     line-height: 22.4px;
     text-align: center;
 }
@@ -23,21 +24,21 @@
     box-sizing: border-box;
     color: #222;
     font-family: "Barlow Condensed", sans-serif;
-    font-size: 65px;
-    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
     text-align: center;
-    /* неможу визначити відступи в макеті виставив приблизно*/
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin-top: 17px;
+    margin-bottom: 14px;
 }
 
 .feedback__subtitle {
-    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
     color: #222;
+    font-family: "Ubuntu", sans-serif;
     font-size: 18px;
-    letter-spacing: -.018em;
+    letter-spacing: -0.324px;
+    line-height: 29.7px;
     text-align: center;
-    /* неможу визначити відступи в макеті виставив приблизно*/
     margin-bottom: 50px;
 }
 
@@ -45,55 +46,92 @@
     margin: auto;
 }
 
-.slide__image {
+.slide__image-container {
     display: block;
-    object-fit: cover;
-    object-position: 50% 50%;
-    overflow: hidden;
-    width: 120px;
-    height: 120px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
+    overflow: hidden;
     margin: auto;
 }
 
+.slide__image {
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+}
+
 .slide__title {
-    font-family: "Barlow Condensed", sans-serif;
+    box-sizing: border-box;
     color: #222;
-    font-size: 28px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
     text-align: center;
-    letter-spacing: -.02em;
-    /* неможу визначити відступи в макеті виставив приблизно*/
-    margin-top: 50px;
-    margin-bottom: 10px;
+    letter-spacing: -0.48px;
+    line-height: 31.2px;
+    margin-top: 21px;
+    /* padding-bottom: 19px; */
 }
 
 .slide__position {
-    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
     color: #b3b3b3;
+    font-family: "Ubuntu", sans-serif;
     font-size: 14px;
-    font-style: bold;
-    /* не застосовується жирний шрифт*/
-    letter-spacing: .1em;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 22.4px;
     text-align: center;
-    /* неможу визначити відступи в макеті виставив приблизно*/
-    margin-bottom: 50px;
+    margin-top: 19px;
 }
 
 .slide__description {
-    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
     color: #898989;
+    font-family: "Ubuntu", sans-serif;
     font-size: 17px;
+    font-weight: 400;
+    line-height: 27.54px;
     text-align: center;
-    /* неможу визначити відступи в макеті виставив приблизно*/
-    margin-bottom: 50px;
+    margin-top: 21px;
 }
 
 .slide__post-date {
-    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
     color: #b3b3b3;
+    font-family: "Ubuntu", sans-serif;
     font-size: 14px;
-    letter-spacing: .1em;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 22.4px;
     text-align: center;
-    /* неможу визначити відступи в макеті виставив приблизно*/
-    margin-bottom: 50px;
+    margin-top: 19px;
+    margin-bottom: 29px;
+}
+
+@media (min-width: 768px) {
+    .feedback__title {
+        font-size: 52px;
+    }
+
+    .slide__image-container {
+        width: 120px;
+        height: 120px;
+    }
+
+    .slide__title {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 992px) {
+    .feedback__title {
+        font-size: 65px;
+    }
+
+    .slide__title {
+        font-size: 28px;
+    }
 }
