@@ -14,10 +14,10 @@
     min-width: 320px;
     max-width: 470px;
     text-align: center;
-    flex-basis: 41.66667%
+    flex-basis: 41.66667%;
 }
 .rent-a-car__rest-of-info-field {
-    flex-basis: 58.33333%
+    flex-basis: 58.33333%;
 }
 .rent-a-car__details {
     font-family: var(--main-font);
