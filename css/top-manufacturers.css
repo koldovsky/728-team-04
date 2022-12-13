@@ -31,6 +31,7 @@
     line-height: 22.4px;
     text-decoration: none;
     text-transform: none;
+    margin-bottom: 20px;
 }
 .top-manufacturers__title {
     color: var(--white-text-color);
