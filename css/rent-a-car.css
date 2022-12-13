@@ -48,7 +48,7 @@
     line-height: 1;
     text-transform: none;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 0 10px 0;
 }
 .rent-a-car__go-away-buttons {
     align-items: center;
