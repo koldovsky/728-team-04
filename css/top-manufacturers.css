@@ -15,7 +15,7 @@
     max-width: 370px;
     text-align: left;
     flex-basis: 430px;
-    padding: 30px 30px 30px 30px;
+    padding: 30px 60px 30px 60px;
 }
 .top-manufacturers__autobrands-carrousel {
     flex-basis: calc(100% - 430px);;
@@ -53,8 +53,10 @@
 .car-logo__item-image {
     /* box-sizing: border-box; */
     background-color: #2f2f2f;
-    width: 200px;
+    width: 240px;
     /*flex-basis: 220px; */
-    padding: 30px 30px 30px 30px;
+    padding: 30px 50px 30px 50px;
+    margin-left: 30;
+    margin-right: 30;
     
 }
