@@ -28,8 +28,8 @@
 
 .staff__title {
     box-sizing: border-box;
-    color: #fff;
-    font-family: "Barlow Condensed", sans-serif;
+    color: var(--main-light-text-color);
+    font-family: var(--title-font);
     font-size: 40px;
     font-weight: 700;
     line-height: 65px;
@@ -40,8 +40,7 @@
 
 .staff__subtitle {
     box-sizing: border-box;
-    color: rgba(255, 255, 255, 0.67);
-    font-family: 'Ubuntu', sans-serif;
+    color: var(--subtitle-light-color);
     font-size: 20px;
     letter-spacing: -.022em;
     line-height: 30px;
@@ -50,7 +49,8 @@
 }
 
 .staff__member-card {
-    display: block margin-top: 30px;
+    display: block;
+    margin-top: 30px;
     padding: 0px 15px;
 }
 
@@ -67,8 +67,8 @@
 
 .staff__member-card-name {
     box-sizing: border-box;
-    color: #fff;
-    font-family: "Barlow Condensed", sans-serif;
+    color: var(--main-light-text-color);
+    font-family: var(--title-font);
     font-size: 24px;
     font-weight: 600;
     letter-spacing: -.02em;
@@ -87,8 +87,7 @@
 }
 
 .staff_member-card-job {
-    font-family: Ubuntu, sans-serif;
-    color: #898989;
+    color: var(--description-dark-color);
     font-size: 17px;
     font-weight: 400;
     text-align: center;
@@ -96,7 +95,7 @@
 }
 
 .staff_social-icon {
-    fill: #fff;
+    fill: var(--main-light-text-color);
 }
 
 .staff__social-icon-container {
