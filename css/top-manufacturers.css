@@ -53,10 +53,9 @@
 .car-logo__item-image {
     /* box-sizing: border-box; */
     background-color: #2f2f2f;
-    width: 240px;
+    width: 230px;
     /*flex-basis: 220px; */
     padding: 30px 50px 30px 50px;
-    margin-left: 30;
-    margin-right: 30;
-    
+    margin-left: 30px;
+    margin-right: 30px;
 }
