@@ -1,0 +1,87 @@
+.rent-a-car {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    min-width: 320px;
+    background-image: url(../img/background-with-a-red-sedan-1920px.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.rent-a-car__info {
+    box-sizing: border-box;
+    min-width: 320px;
+    max-width: 470px;
+    text-align: center;
+    flex-basis: 41.66667%;
+}
+.rent-a-car__rest-of-info-field {
+    flex-basis: 58.33333%;
+}
+.rent-a-car__details {
+    font-family: var(--main-font);
+    line-height: 30px;
+}
+.rent-a-car__section-title {
+    box-sizing: border-box;
+    color: var(--accent-color);
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+
+.rent-a-car__title {
+    font-size: 65px;
+    color: var(--main-text-color);
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    text-transform: none;
+    text-decoration: none;
+    padding: 10px 0 10px 0;
+}
+.rent-a-car__go-away-buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    font-family: var(--main-font);
+    text-decoration: none;
+    padding: 12px 30px 12px 30px; /* Поля навколо тексту */
+    border-radius: 20px;
+    margin: 60px 10px 100px 10px; /* відступи навкруги */
+ }
+.rent-a-car__contacts-button {
+    border: 1px solid var(--accent-color); /* Параметри рамки */
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+    
+}
+.rent-a-car__best-offer-button {
+    border: 1px solid var(--grey-text-color); /* Параметри рамки */
+    background-color: var(--white-text-color);
+    color: var(--grey-text-color);
+
+}
+.rent-a-car__contacts-button:hover {
+    border: 1px solid var(--hover-button-color); /* Параметри рамки */
+    background-color: var(--hover-button-color);
+}
+.rent-a-car__best-offer-button:hover {
+    border: 1px solid var(--grey-text-color); /* Параметри рамки */
+    background-color: var(--grey-text-color);
+    color: var(--white-text-color);
+}

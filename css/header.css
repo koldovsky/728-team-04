@@ -1,0 +1,82 @@
+h1 {
+    color: var(--accent-color);
+}
+
+.header__menu-item {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.header__menu-item:hover {
+    text-decoration: underline;
+}
+
+.nav__button {
+    color: var(--accent-color)
+}
+
+.header__pricing-button {
+    text-decoration: none;
+    color: var(--accent-color)
+}
+
+.header__pricing-button:hover {
+    text-decoration: underline;
+}
+
+.header__learnmore {
+    text-decoration: none;
+    color: white
+}
+
+.header__learnmore:hover {
+    text-decoration: underline;
+}
+
+.header__container {
+    color: rgb(137,137,137)
+}
+
+.header__learnmore-button {
+    text-decoration: none;
+    color: white
+    
+}
+
+.header__learnmore-button:hover {
+    text-decoration: underline;
+}
+
+.header__title {
+    font-size: 200px
+}
+
+.header__upper-title {
+    font-size: 18px
+}
+
+.header__learnmore-button {
+    font-size: 16.5px
+}
+
+.header__pricing-button {
+    font-size: 16.5px
+}
+
+.header__upper-title-nyc {
+    color: rgb(16,136,228)
+}
+
+.header__upper-title-dash {
+    color: rgb(16,136,228)
+}
+
+.header__learnmore-button {
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+
+.header__learnmore {
+    background-color: lightskyblue;
+    border-radius: 10px
+}
