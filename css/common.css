@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    font-family: 'Ubuntu', sans-serif;
+    --main-text-color: rgb(0, 0, 0);
+    --accent-color: rgb(246,196,61);
+}
+
+.section-title {
+    box-sizing: border-box;
+    color: var(--accent-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+
+body {
+    background-color: rgb(246,246,246);
+}
+
+/*
+Тимчасово не використовується
+img {
+    display: block;
+    width: 100%;
+}
+*/
+
+
