@@ -10,8 +10,29 @@
 
 :root {
     font-family: 'Ubuntu', sans-serif;
-    --main-text-color: rgb(0, 0, 0);
-    --accent-color: rgb(246,196,61);
+    --main-text-color: #222; /* rgb(34, 34, 34) */
+    --accent-color: #f6c43d; /* rgb(246, 196, 61) */
+    --hover-button-color: rgb(16, 136, 228); /* #1088e4 */
+    --white-text-color: #fff; /* rgb(255, 255, 255) */
+    --grey-text-color: #666; /* rgb(102, 102, 102) */
+    --light-grey-text-color: #b7b7b7;
+    
+    /* Yurii Ubohyi: пропоную використати іншу назву деяких змінних
+    --main-dark-text-color натомість --main-text-color 
+    --main-light-text-color натомість --white-text-color */
+
+    --main-dark-text-color: #222; /* rgb(34, 34, 34) */
+    --main-light-text-color: #fff; /* rgb(255, 255, 255) */
+    --subtitle-light-color: rgba(255, 255, 255, 0.67); /* transperent white text color*/
+    --description-light-color: #b3b3b3; /* rgb(179, 179, 179) */
+    --description-dark-color: #898989; /* rgb(137, 137, 137) */
+
+    --main-font: "Ubuntu", sans-serif;
+    --title-font: "Barlow Condensed", sans-serif;
+}
+
+h1 {
+    color: var(--accent-color);
 }
 
 .section-title {
@@ -28,7 +49,7 @@
 }
 
 body {
-    background-color: rgb(246,246,246);
+    background-color: rgb(246, 246, 246);
 }
 
 /*
@@ -38,5 +59,3 @@ img {
     width: 100%;
 }
 */
-
-

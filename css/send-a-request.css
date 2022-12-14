@@ -3,6 +3,8 @@
     padding-bottom: 90px;
     min-width: 320px;
     background-image: url("../img/alfaromeo.svg");
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .send-request__info {
@@ -104,20 +106,31 @@
 
 }
 @media (min-width:992px){
+    .send-request {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .send-request__form,
+    .send-request__info{
+        width: 50%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
     .send-request__info-title{
         font-size: 65px;
         font-weight: 700px;
     }
 }
 @media (min-width:1200px){
-    .send-request__info{
+    .send-request__wrapper{
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
     }
+    .send-request__info{
+        width: 545px;
+    }
     .send-request__form{
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 545px;
     }
 }
