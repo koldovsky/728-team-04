@@ -1,0 +1,47 @@
+.fastcar-title,
+.contacts-card__phone,
+.contacts-card__email {
+    color: var(--accent-color);
+}
+
+.contacts {
+    background-color: rgb(238, 238, 238);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.contacts-card {
+    background-color: var(--white-text-color);
+    margin: 15% 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    text-align: center;
+    padding: 8% 12%;
+}
+
+.contacts-card__title {
+    font-family: var(--title-font);
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.contacts-card__address {
+    color: var(--description-dark-color);
+}
+
+.contacts-card__phone {
+    padding-bottom: 0;
+}
+
+.contacts-card__socials-item {
+    list-style-type: none;
+}
+
+.contacts-card__socials-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
