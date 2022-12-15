@@ -1,0 +1,49 @@
+.rates__section_title {
+    color: #f6c43d;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    line-height: 22.4px;
+    text-align: center;
+
+}
+
+.rates__section__title {
+    color: white;
+
+}
+.rates__tittle{
+    box-sizing: border-box;
+    color: black;
+    font-family: var(--title-font);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.rates__subtitle{
+    max-width: 770px;
+    margin: auto;
+    box-sizing: border-box;
+    color: gray;
+    font-size: 20px;
+    letter-spacing: -.022em;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.rates__section_subtitle{
+    font-size: 50px;
+}
+.rates__section__subtitle{
+    color: gray;
+}
+.rates__button{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
