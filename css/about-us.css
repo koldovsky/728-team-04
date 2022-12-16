@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url("img/background.car-about-us.webp");
+    background-image: url("../img/background.car-about-us.webp");
     background-position: right 50% bottom 45%;
     align-self: start;
 }
