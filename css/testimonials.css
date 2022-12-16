@@ -104,6 +104,7 @@
     text-align: center;
     margin-top: 19px;
     margin-bottom: 29px;
+    padding-bottom: 20px; /* for carousel */
 }
 
 @media (min-width: 768px) {
@@ -129,4 +130,26 @@
     .slide__title {
         font-size: 28px;
     }
+}
+
+.carousel-control-next, .carousel-control-prev {
+    color: rgb(20, 38, 201);
+    fill: rgb(20, 38, 201);
+    /* нажаль не працює, поки не знаю де копати */
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    background-color: #4aa4e9;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+    background-color: #1088e4;
+    opacity: 1;
+    transition: none;
+
 }
