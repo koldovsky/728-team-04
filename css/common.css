@@ -29,6 +29,9 @@
 
     --main-font: "Ubuntu", sans-serif;
     --title-font: "Barlow Condensed", sans-serif;
+    
+    --bs-body-font-family: 'Ubuntu', sans-serif; /* перепризначив шрифт bootstrap, має бути такий як --main-font 
+    не знаю чи можна тут змінній призначати іншу змінну, vs code не підсвічує синтаксис */
 }
 
 h1 {
