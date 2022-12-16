@@ -2,10 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url("img/car-about-us.webp");
+    background-image: url("../img/background.car-about-us.webp");
     background-position: right 50% bottom 45%;
     align-self: start;
-
 }
 
 .meet-fastcar__header {
@@ -20,10 +19,6 @@
     letter-spacing: 1.4px;
    
 }
-
-
-
-
 
 .meet-fastcar__header__container {
     display: block;
@@ -91,13 +86,3 @@
     font-weight: 400;
 }
 
-.about-us__car {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url(img/car-about-us.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-}
