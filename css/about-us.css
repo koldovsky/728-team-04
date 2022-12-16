@@ -2,10 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url("/workspaces/728-team-04/img/car-about-us.webp");
+    background-image: url("img/car-about-us.webp");
     background-position: right 50% bottom 45%;
     align-self: start;
-
 }
 
 .meet-fastcar__header {
