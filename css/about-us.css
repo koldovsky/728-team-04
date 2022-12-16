@@ -86,13 +86,3 @@
     font-weight: 400;
 }
 
-.about-us__car {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url(img/car-about-us.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-}
