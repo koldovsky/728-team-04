@@ -1,0 +1,103 @@
+.meet-fastcar__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("img/car-about-us.webp");
+    background-position: right 50% bottom 45%;
+    align-self: start;
+
+}
+
+.meet-fastcar__header {
+    color: #f6c43d !important;
+    font-family: Ubuntu, sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    text-align: left;
+    font-style: normal;
+    vertical-align: baseline;
+    line-height: 22.4px;
+    letter-spacing: 1.4px;
+   
+}
+
+
+
+
+
+.meet-fastcar__header__container {
+    display: block;
+    color: #b3b3b3;
+}
+
+.about-us__subtitle {
+    color: #222;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    text-align: left;
+    line-height: 40px;
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+    display: inline;
+}
+
+.about-us__container {
+    display: block;
+}
+
+.fat__text__meet-fastcar {
+    color: #222;
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -0.324px;
+    line-height: 29.7px;
+    text-align: left;
+}
+
+.about-us__text {
+    font-weight: 800;
+    letter-spacing: -0.324px;
+    line-height: 29.7px;
+    font-style: normal;
+}
+
+.fat__text__meet-fastcar1 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.324px;
+    line-height: 29.7px;
+    vertical-align: baseline;
+}
+
+.meet-fastcar__text {
+    color: #898989;
+    display: block;
+    box-sizing: border-box;
+    margin-block-end: 16px;
+    margin-block-start: 16px;
+    font-size: 17px;
+    font-weight: 400;
+    justify-content: flex-start;
+    line-height: 27.54px;
+
+}
+
+.fat__text__meet-fastcar1 {
+    font-weight: 400;
+}
+
+.about-us__car {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/car-about-us.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
