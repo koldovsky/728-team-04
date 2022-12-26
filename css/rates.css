@@ -1,55 +1,107 @@
 .rates__section_title {
-    color: #f6c43d;
+    color: var(--accent-color);
+    font-family: var(--main-font);
     box-sizing: border-box;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: .1em;
     line-height: 22.4px;
     text-align: center;
-
 }
 
 .rates__section__title {
-    color: white;
-
+    color: rgb(255, 255, 255);
+   font-family: var(--main-font);
+   
 }
-.rates__tittle{
+.rates__section-title{
+    color: var(--accent-color);
+    font-family: var(--main-font);
+}
+
+.rates__tittle {
     box-sizing: border-box;
-    color: black;
+    color: var(--main-text-color);
     font-family: var(--title-font);
-    font-size: 40px;
+    font-style: normal;
+    font-size: 65px;
     font-weight: 700;
     line-height: 65px;
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 15px; 
 }
-.rates__subtitle{
+
+.rates__subtitle {
     max-width: 770px;
     margin: auto;
     box-sizing: border-box;
-    color: gray;
+    color: rgb(137, 137, 137);
     font-size: 20px;
     letter-spacing: -.022em;
     line-height: 30px;
     text-align: center;
     margin-bottom: 30px;
 }
-.rates__section_subtitle{
+
+.rates__section_subtitle {
     font-size: 50px;
+    font-family: var(--title-font);
+    color: var(--main-text-color);
+    font-style: normal;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 65px;
 }
-.rates__section__subtitle{
-    color: gray;
+
+.rates__section__subtitle {
+    color: rgb(137, 137, 137);
 }
-.rates__button{
+.rates__icon_list_item{
+    font-family: var(--main-font);
+    line-height: 30px;
+    color: rgb(137, 137, 137);
+}
+.button{
+    font-family: var(--main-font);
+    text-decoration: none;
+    padding: 12px 30px 12px 30px; 
+    border-radius: 20px;
+    margin: 60px 10px 100px 10px;
+}
+.rates__button {
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-#rates__section_details{
+
+.rates__section-button {
+    border: 1px solid var(--accent-color);
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+}
+
+.rates__section-button:hover {
+    border: 1px solid var(--hover-button-color);
+    background-color: var(--hover-button-color);
+}
+
+
+/* #rates__section_details {
     margin-top: 100px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+#rates__section_details{
+    display: block;
+    flex-direction: row;
+    margin-top: 100px;
+    padding: 0px 15px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
