@@ -26,6 +26,7 @@
     --subtitle-light-color: rgba(255, 255, 255, 0.67); /* transperent white text color*/
     --description-light-color: #b3b3b3; /* rgb(179, 179, 179) */
     --description-dark-color: #898989; /* rgb(137, 137, 137) */
+    --error-color: #e74c3c; /*rgb(231, 76, 60)*/
 
     --main-font: "Ubuntu", sans-serif;
     --title-font: "Barlow Condensed", sans-serif;
