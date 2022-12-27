@@ -24,7 +24,7 @@
 
 .contacts-card__title {
     font-family: var(--title-font);
-    font-size: 52px;
+    font-size: 65px;
     font-weight: 500;
 }
 
@@ -88,3 +88,28 @@
     color: var(--white-text-color);
 }
 
+@media screen and (max-width: 992px) {
+    .contacts-card__title {
+        font-size: 52px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+    }
+
+    .contacts-card {
+        margin: 10% 5%;
+    }
+
+    .contacts__map {
+        height: 100%;
+    }
+
+    .contacts-card__title {
+        font-size: 40px;
+    }
+}
