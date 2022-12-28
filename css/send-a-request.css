@@ -8,8 +8,8 @@
 }
 
 .send-request__info {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 5px 11.2px 2.8px rgba(136, 140, 133, .12);
+    background-color: var(--form-background-color);
+    box-shadow: 0 5px 11.2px 2.8px var(--form-shadow-color);
     border-radius: 5px 5px 0px 0px;
     padding: 45px 24px 0 24px;
     margin: 0 30px;
@@ -27,7 +27,6 @@
 
 .send-request__info-title {
     box-sizing: border-box;
-    color: rgb(0, 0, 0);
     font-family: "Barlow Condensed", sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -37,7 +36,7 @@
 
 .send-request__info-text {
     font-family: "Ubuntu", sans-serif;
-    color: rgb(137, 137, 137);
+    color: var(--description-dark-color);
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
@@ -50,8 +49,8 @@
 }
 
 .send-request__form {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 5px 11.2px 2.8px rgba(136, 140, 133, .12);
+    background-color: var(--form-background-color);
+    box-shadow: 0 5px 11.2px 0 var(--form-shadow-color);
     border-radius: 0px 0px 5px 5px;
     padding: 25px 24px 40px 24px;
     margin: 0px 30px 0px 30px;
@@ -63,12 +62,12 @@
     display: block;
     width: 100%;
     margin-top: 12px;
-    margin-bottom: 24px;
+    margin-bottom: 0;
     padding: 11px 22px;
     border-bottom-style: solid;
-    border-bottom-color: rgb(246, 246, 246);
+    border-bottom-color: var(--form-input-border-color);
     border-bottom-width: 2px;
-    color: rgba(0, 0, 0, 0.58);
+    color: var(--form-input-text-color);
     font-family: inherit;
     font-size: 15px;
     font-weight: 400;
@@ -77,13 +76,28 @@
     border-right-style: none;
     line-height: 1.2;
 }
+.send-request__form-tel-error,
+.send-request__form-email-error,
+.send-request__form-message-error,
+.send-request__form-fullname-error{
+    min-height: 1.1rem;
+    font-size: 0.7rem;
+    padding-left: 22px;
+    color: var(--error-color);
+}
+.send-request__form-input-err{
+    border-color: var(--error-color);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
 .send-request__form-button{
     width: 100%;
     margin-top: 56px;
     border-style: none;
     border-radius: 37px;
-    background-color: rgb(16, 136, 288);
-    color:rgb(255, 255, 255);
+    background-color: var(--form-button-background);
+    color: var(--form-button-text-color);
     font-family: inherit;
     font-size: 15px;
     font-weight: 700;

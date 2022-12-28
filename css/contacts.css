@@ -24,12 +24,23 @@
 
 .contacts-card__title {
     font-family: var(--title-font);
-    font-size: 52px;
+    font-size: 65px;
     font-weight: 500;
 }
 
 .contacts-card__address {
     color: var(--description-dark-color);
+    font-size: 20px;
+}
+
+.contacts-card__link a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contacts-card__link a:hover {
+    color: var(--accent-color);
 }
 
 .contacts-card__phone {
@@ -38,10 +49,67 @@
 
 .contacts-card__socials-item {
     list-style-type: none;
+    background-color: var(--main-text-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-card__socials-item:hover {
+    background-color: var(--accent-color);
 }
 
 .contacts-card__socials-list {
     display: flex;
     flex-direction: row;
     gap: 10%;
+    padding-left: 0;
+}
+
+.contacts-card__socials-item a {
+    color: var(--white-text-color);
+}
+
+.contacts-card__button {
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.contacts-card__button:hover {
+    background-color: var(--hover-button-color);
+    color: var(--white-text-color);
+}
+
+@media screen and (max-width: 992px) {
+    .contacts-card__title {
+        font-size: 52px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+    }
+
+    .contacts-card {
+        margin: 10% 5%;
+    }
+
+    .contacts__map {
+        height: 100%;
+    }
+
+    .contacts-card__title {
+        font-size: 40px;
+    }
 }
