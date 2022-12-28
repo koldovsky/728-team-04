@@ -27,6 +27,12 @@
     --description-light-color: #b3b3b3; /* rgb(179, 179, 179) */
     --description-dark-color: #898989; /* rgb(137, 137, 137) */
     --error-color: #e74c3c; /*rgb(231, 76, 60)*/
+    --form-background-color: #fff; /* rgb(255, 255, 255) */
+    --form-shadow-color: #888c851f; /*rgba(136, 140, 133, .12*/
+    --form-input-border-color: #f6f6f6; /*rgb(246, 246, 246)*/
+    --form-input-text-color: #00000094; /*rgba(0, 0, 0, 0.58);*/
+    --form-button-background: #1088ff; /*rgb(16, 136, 255)*/
+    --form-button-text-color:#ffffff; /*rgb(255, 255, 255)*/
 
     --main-font: "Ubuntu", sans-serif;
     --title-font: "Barlow Condensed", sans-serif;
