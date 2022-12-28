@@ -82,8 +82,8 @@
 
   formSendRequest.addEventListener("submit", function (e) {
     if (
-      !checkLength(fullName, fullNameError, 3, 15) &&
-      !checkPhone(tel, telError) &&
+      !checkLength(fullName, fullNameError, 3, 15) ||
+      !checkPhone(tel, telError) ||
       !checkEmail(email, emailError)
     ) {
       e.preventDefault();
