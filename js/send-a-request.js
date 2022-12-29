@@ -3,6 +3,8 @@
   const fullName = document.querySelector(".send-request__form-fullname");
   const tel = document.querySelector(".send-request__form-tel");
   const email = document.querySelector(".send-request__form-email");
+  const minFullName = 3;
+  const maxFullName = 15;
 
   const fullNameError = document.querySelector(
     ".send-request__form-fullname-error"
@@ -73,7 +75,7 @@
   }
 
   fullName.addEventListener("focusout", (event) =>
-    checkLength(fullName, fullNameError, 3, 15)
+    checkLength(fullName, fullNameError, minFullName, maxFullName)
   );
 
   tel.addEventListener("focusout", (event) => checkPhone(tel, telError));
@@ -82,8 +84,8 @@
 
   formSendRequest.addEventListener("submit", function (e) {
     if (
-      !checkLength(fullName, fullNameError, 3, 15) &&
-      !checkPhone(tel, telError) &&
+      !checkLength(fullName, fullNameError, 3, 15) ||
+      !checkPhone(tel, telError) ||
       !checkEmail(email, emailError)
     ) {
       e.preventDefault();
