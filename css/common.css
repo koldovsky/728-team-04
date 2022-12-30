@@ -13,6 +13,7 @@
     --main-text-color: #222; /* rgb(34, 34, 34) */
     --accent-color: #f6c43d; /* rgb(246, 196, 61) */
     --hover-button-color: rgb(16, 136, 228); /* #1088e4 */
+    --hover-button-color-before: #4aa4e9; /* rgb(74, 164, 233) */
     --white-text-color: #fff; /* rgb(255, 255, 255) */
     --grey-text-color: #666; /* rgb(102, 102, 102) */
     --light-grey-text-color: #b7b7b7;
