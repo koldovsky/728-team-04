@@ -83,11 +83,16 @@
   email.addEventListener("focusout", (event) => checkEmail(email, emailError));
 
   formSendRequest.addEventListener("submit", function (e) {
-    if (
-      !checkLength(fullName, fullNameError, 3, 15) ||
-      !checkPhone(tel, telError) ||
-      !checkEmail(email, emailError)
-    ) {
+    let checkForm = false;
+    checkForm |= !checkLength(
+      fullName,
+      fullNameError,
+      minFullName,
+      maxFullName
+    );
+    checkForm |= !checkPhone(tel, telError);
+    checkForm |= !checkEmail(email, emailError);
+    if (checkForm) {
       e.preventDefault();
     }
   });
