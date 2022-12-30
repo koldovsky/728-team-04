@@ -122,6 +122,27 @@
     width: 24px;
     height: 24px;
     background-size: 100% 12px;
+    background-image: url(none);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control-prev-icon-arrow,
+.carousel-control-next-icon-arrow {
+    box-sizing: border-box;
+    width: 12px;
+    height: 12px;
+    fill: #fff;
+    margin: auto;
+}
+
+.carousel-control-prev-icon-arrow {
+    transform: rotateY(180deg)
+}
+
+.carousel-arrow-svg {
+    vertical-align: top;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -160,9 +181,10 @@
         height: 32px;
     }
 
-    .carousel-control-next-icon,
-    .carousel-control-prev-icon {
-        background-size: 100% 16px;
+    .carousel-control-prev-icon-arrow,
+    .carousel-control-next-icon-arrow {
+        width: 20px;
+        height: 20px;
     }
 }
 
@@ -181,5 +203,13 @@
     .carousel-control-next-icon,
     .carousel-control-prev-icon {
         background-size: 100% 24px;
+        background-color: #fff;
+    }
+
+    .carousel-control-prev-icon-arrow,
+    .carousel-control-next-icon-arrow {
+        width: 30px;
+        height: 30px;
+        fill: #1088e4;
     }
 }
