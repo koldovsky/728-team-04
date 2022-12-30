@@ -112,12 +112,12 @@
 .carousel-control-next,
 .carousel-control-prev {
     width: 5%;
-    opacity: 0.75;
+    opacity: 0.8;
 }
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-    background-color: #1088e4;
+    background-color: var(--hover-button-color);
     border-radius: 50%;
     width: 24px;
     height: 24px;
@@ -133,7 +133,7 @@
     box-sizing: border-box;
     width: 12px;
     height: 12px;
-    fill: #fff;
+    fill: var(--main-light-text-color);
     margin: auto;
 }
 
@@ -148,14 +148,14 @@
 .carousel-indicators [data-bs-target] {
     width: 10px;
     height: 10px;
-    background-color: #4aa4e9;
+    background-color: var(--hover-button-color-before);
     border-radius: 50%;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .carousel-indicators [data-bs-target]:hover {
-    background-color: #1088e4;
+    background-color: var(--hover-button-color);
     opacity: 1;
     transition: none;
 
@@ -203,13 +203,13 @@
     .carousel-control-next-icon,
     .carousel-control-prev-icon {
         background-size: 100% 24px;
-        background-color: #fff;
+        background-color: rgba(255, 255, 255, 0);
     }
 
     .carousel-control-prev-icon-arrow,
     .carousel-control-next-icon-arrow {
         width: 30px;
         height: 30px;
-        fill: #1088e4;
+        fill: var(--hover-button-color);
     }
 }
