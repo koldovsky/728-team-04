@@ -1,9 +1,11 @@
-.rates{
-    background-color: rgb(255, 255, 255);;
+.rates {
+    background-color: rgb(255, 255, 255);
+    ;
     padding-top: 90px;
     padding-bottom: 90px;
     min-width: 320px;
 }
+
 .rates__section_title {
     color: var(--accent-color);
     font-family: var(--main-font);
@@ -50,7 +52,7 @@
     text-align: center;
     margin-bottom: 30px;
     font-family: "Ubuntu", sans-serif;
-     font-weight: 400;
+    font-weight: 400;
     vertical-align: baseline;
 }
 
@@ -110,37 +112,30 @@
 }
 
 
-/* #rates__section_details {
-    margin-top: 100px;
+.rates__section_details {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-} */
-/* #rates__section_details{
+    margin: 0;
+}
+
+/* .rates__section_details{
     display: block;
     flex-direction: row;
     margin-top: 100px;
     padding: 0px 15px;
     justify-content: center;
     width: 100%;
-    margin-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
 } */
-.rates__section_details {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 15px;
-    margin-right: 15px;
-}
 
-.retes__section__item {
+/* .retes__section__item {
     width: 100%;
     margin-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
-}
+} */
 
 @media (min-width:768px) {
     .rates__tittle {
@@ -151,7 +146,8 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .retes__section__item{
+
+    .retes__section__item {
         width: 50%;
     }
 }
@@ -160,22 +156,31 @@
     .rates__tittle {
         font-size: 65px;
     }
-    .rates__section__item{
+
+    .rates__section__item {
         width: 33%;
     }
 
 }
 
 @media (min-width:1200px) {
-    
-    .rates__main_content{
+
+    .rates__main_content {
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
     }
+
     .rates__section_details {
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+.retes__section__item {
+    width: 150px;
+    height: 550px;
+    display: inline-block;
+    margin: 35px 175px 10px 10px;
 }
