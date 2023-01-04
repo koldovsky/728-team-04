@@ -111,7 +111,7 @@
 
 .carousel-control-next,
 .carousel-control-prev {
-    width: 5%;
+    width: auto;
     opacity: 0.8;
 }
 
