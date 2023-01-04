@@ -155,12 +155,12 @@
 
 .header__banner {
     padding: 110px 24px;
-    margin-bottom: 110px;
 }
 
 .header__banner-title {
     font-family: "Barlow Condensed", sans-serif;
     font-size: 200px;
+    overflow-wrap: break-word;
 }
 
 .header__banner-slogan {

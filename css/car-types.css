@@ -1,0 +1,76 @@
+.car-types__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.car-types__item {
+    background-color: var(--form-background-color);
+    padding: 65px 27px;
+    margin: 15px;
+    text-align: center;
+}
+
+.car-types__item img {
+    height: 40%;
+}
+
+.car-types__title {
+    font-size: 28px;
+    color: var(--main-text-color);
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.car-types__text {
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--description-dark-color);
+}
+
+.car-types__button {
+    display: block;
+    width: 180px;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 16px 28px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    background-color: var(--accent-color);
+    border-radius: 50px;
+    color: var(--white-text-color);
+}
+
+.car-types__button:hover {
+    background-color: var(--form-button-background);
+    color: var(--white-text-color);
+}
+
+@media(min-width:766px) {
+    .car-types__wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .car-types__item {
+        width: 46%;
+    }
+}
+
+@media(min-width:992px) {
+    .car-types__item {
+        width: 30%;
+    }
+    .car-types__item img {
+        height: 35%;
+    }
+}
