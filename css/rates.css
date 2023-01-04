@@ -88,9 +88,11 @@
 .button {
     font-family: var(--main-font);
     text-decoration: none;
-    padding: 12px 30px 12px 30px;
+    /* padding: 12px 30px 12px 30px;
+    margin: 60px 10px 100px 10px; */
+    padding: 15px;
+    margin-bottom: 50px;
     border-radius: 20px;
-    margin: 60px 10px 100px 10px;
 }
 
 .rates__button {
@@ -179,8 +181,11 @@
 }
 
 .retes__section__item {
-    width: 150px;
+    /* width: 150px;
     height: 550px;
     display: inline-block;
-    margin: 35px 175px 10px 10px;
+    margin: 35px 175px 10px 10px; */
+    width: 350px;
+    height: 550px;
+    padding: 15px;
 }
