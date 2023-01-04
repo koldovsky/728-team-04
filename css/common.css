@@ -17,6 +17,7 @@
     --white-text-color: #fff; /* rgb(255, 255, 255) */
     --grey-text-color: #666; /* rgb(102, 102, 102) */
     --light-grey-text-color: #b7b7b7;
+    --slogan-highlight-text: #1088e4; /*rgb(16, 136, 228)*/
     
     /* Yurii Ubohyi: пропоную використати іншу назву деяких змінних
     --main-dark-text-color натомість --main-text-color 
