@@ -21,11 +21,11 @@
   const socialIconText = document.querySelectorAll(".social-icons__icon-text");
   socialIconText.forEach((iconText) => {
     iconText.addEventListener("mouseover", (_) => {
-      const socialIconSvg = iconText.parentNode.childNodes[1];
+      const socialIconSvg = iconText.parentNode.querySelector(".social-icons__icon-outer");
       socialIconSvg.classList.add("social-icons__mouseover");
     });
     iconText.addEventListener("mouseout", (_) => {
-      const socialIconSvg = iconText.parentNode.childNodes[1];
+      const socialIconSvg = iconText.parentNode.querySelector(".social-icons__icon-outer");
       socialIconSvg.classList.remove("social-icons__mouseover");
     });
   });
