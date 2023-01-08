@@ -90,6 +90,10 @@
     fill: var(--accent-color);
 }
 
+.social-icons__mouseover {
+    fill: var(--accent-color-dark);
+}
+
 .social-icons__icon-text {
 
     fill: var(--main-light-text-color);
@@ -97,7 +101,7 @@
 
 .social-icons__icon-outer:hover,
 .social-icons__icon-bordert:hover {
-    fill: #f4b50c;
+    fill: var(--accent-color-dark);
 }
 
 .top-line__burger {
@@ -155,12 +159,12 @@
 
 .header__banner {
     padding: 110px 24px;
-    margin-bottom: 110px;
 }
 
 .header__banner-title {
     font-family: "Barlow Condensed", sans-serif;
     font-size: 200px;
+    overflow-wrap: break-word;
 }
 
 .header__banner-slogan {
@@ -269,6 +273,7 @@ body.lock {
         margin-left: auto;
         margin-right: auto;
     }
+
     .header-banner__wrapper {
         max-width: 1200px;
         margin-left: auto;
