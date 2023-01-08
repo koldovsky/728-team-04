@@ -1,6 +1,5 @@
 .rates {
-    background-color: rgb(255, 255, 255);
-    ;
+    background-image: url(../img/picture_rates_background.png);
     padding-top: 90px;
     padding-bottom: 90px;
     min-width: 320px;
@@ -20,7 +19,6 @@
 .rates__section__title {
     color: rgb(255, 255, 255);
     font-family: var(--main-font);
-
 }
 
 .rates__section-title {
@@ -188,4 +186,11 @@
     width: 350px;
     height: 550px;
     padding: 15px;
+}
+.rates__icon_list{
+    list-style-type:none;
+    list-style-image: url(/img/Picture\ Ok.jpg);
+}
+.rates__section__item_background-image{
+    background-image: url(../img/picture_rates_background_items_luxury.png);
 }
