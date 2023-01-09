@@ -22,58 +22,106 @@
     <!--Vlad Chepernatyi-->
     <!-- Yurii Ubohyi -->
     <header>
-        <nav class="header__nav">
-            <div class="header__logo">
-                <img id="start" width="100" src="img/logo.png" alt="CarRentalLogo">
+        <div class="header">
+            <div class="header__top">
+                <nav class="top-nav">
+                    <div class="top-nav__top-line top-line">
+                        <div class="top-line__logo">
+                            <img id="start" src="img/company-logo.png" alt="CarRental logo">
+                        </div>
+                        <div class="top-line__burger"> <span></span></div>
+                    </div>
+                    <div class="top-nav__navigation">
+                        <div class="top-nav__navigation-menu">
+                            <a href="#aboutUs" class="navigation__link">About us</a>
+                            <a href="#carsOfTheMonth" class="navigation__link">Cars of the month</a>
+                            <a href="#pricing" class="navigation__link">Pricing</a>
+                            <a href="#testimonials" class="navigation__link">Testimonials</a>
+                            <a href="#contacts" class="navigation__link">Contact us</a>
+                        </div>
+                        <div class="top-nav__social-icons">
+                            <a class="social-icons__icon-link" rel="noopener noreferrer" target="_blank"
+                                href="https://facebook.com/"><svg viewBox="0 0 32 32">
+                                    <path class="social-icons__icon-outer"
+                                        d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z">
+                                    </path>
+                                    <path class="social-icons__icon-border"
+                                        d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z">
+                                    </path>
+                                    <path class="social-icons__icon-text"
+                                        d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z">
+                                    </path>
+                                </svg></a>
+                            <a class="social-icons__icon-link" rel="noopener noreferrer" target="_blank"
+                                href="https://instagram.com/"><svg viewBox="0 0 32 32">
+                                    <path class="social-icons__icon-outer"
+                                        d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                                    </path>
+                                    <path class="social-icons__icon-border"
+                                        d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z">
+                                    </path>
+                                    <path class="social-icons__icon-text"
+                                        d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
+                                    </path>
+                                </svg></a>
+                            <a class="social-icons__icon-link" rel="noopener noreferrer" target="_blank"
+                                href="https://youtube.com/"><svg viewBox="0 0 32 32">
+                                    <path class="social-icons__icon-outer"
+                                        d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
+                                    </path>
+                                    <path class="social-icons__icon-border"
+                                        d="M16,31 C24.2842712,31 31,24.2842712 31,16 C31,7.71572875 24.2842712,1 16,1 C7.71572875,1 1,7.71572875 1,16 C1,24.2842712 7.71572875,31 16,31 Z M16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 Z">
+                                    </path>
+                                    <path class="social-icons__icon-text"
+                                        d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
+                                    </path>
+                                </svg></a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="header-banner__wrapper">
+                    <div class="header__banner">
+                        <p class="header__banner-slogan">
+                            <span class="header__banner-slogan-highlight">— </span>
+                            Comfortable driving in
+                            <span class="header__banner-slogan-highlight">NYC</span>
+                        </p>
+                        <h1 class="header__banner-title">CAR RENTAL</h1>
+                        <div class="header__banner-buttons">
+                            <a href="#aboutUs" class="header__banner-buttons-left">LEARN
+                                MORE</a>
+                            <a href="#pricing" class="header__banner-buttons-right">PRICING <img
+                                    src="img/right-arrow.png" alt="right arrow"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="header__menu">
-                <a style="font-weight: bold" href="#aboutUs" class="header__menu-item">About us</a>
-                <a style="font-weight: bold" href="#carsOfTheMonth" class="header__menu-item">Cars of the month</a>
-                <a style="font-weight: bold" href="#pricing" class="header__menu-item">Pricing</a>
-                <a style="font-weight: bold" href="#testimonials" class="header__menu-item">Testimonials</a>
-                <a style="font-weight: bold" href="#contactUs" class="header__menu-item">Contact us</a>
-                <form action="https://www.facebook.com/">
-                    <button class="nav__button" type="submit">Facebook</button>
-                </form>
-                <form action="https://www.instagram.com/">
-                    <button class="nav__button" type="submit">Instagram</button>
-                </form>
-                <form action="https://www.youtube.com/">
-                    <button class="nav__button" type="submit">Youtube</button>
-                </form>
-                <img width="15" src="img/facebooklogo.png" alt="Facebook">
-                <img width="15" src="img/instagramlogo.png" alt="Instagram">
-                <img width="15" src="img/youtubelogo.png" alt="Youtube">
-            </div>
-            <div class="header__banner">
-                <p style="font-weight: bold" class="header__upper-title-dash">-</p>
-                <p style="font-weight: bold" class="header__upper-title">Comfortable driving in</p>
-                <p style="font-weight: bold" class="header__upper-title-nyc">NYC</p>
-                <h1 class="header__title">CAR RENTAL</h1>
-                <a style="font-weight: bold" href="#aboutUs" class="header__learnmore-button button">LEARN MORE</a>
-                <a style="font-weight: bold" href="#pricing" class="header__pricing-button button">PRICING</a>
-            </div>
-            <div class="header__bottom">
-                <img width="300" src="img/whitecar.png" alt="whiteCar">
-                <img width="300" src="img/bluecar.png" alt="whiteCar">
-                <img width="300" src="img/blackcar.png" alt="whiteCar">
-                <h2>SUVs</h2>
-                <p class="header__container">No obstacles on your way can spoil the trip.</p>
-                <a style="font-weight: bold" href="#sendARequest" class="header__learnmore">LEARN MORE</a>
-                <br>
-                <h2>Sport Cars</h2>
-                <p class="header__container">Feel what true speed and freedom are.</p>
-                <a style="font-weight: bold" href="#sendARequest" class="header__learnmore">LEARN MORE</a>
-                <br>
-                <h2>Luxury</h2>
-                <p class="header__container">Comfortable cars for demanding clients.</p>
-                <a style="font-weight: bold" href="#sendARequest" class="header__learnmore">LEARN MORE</a>
-            </div>
-        </nav>
     </header>
     <main>
+        <section class="car-types">
+            <div class="car-types__wrapper">
+                <div class="car-types__item">
+                    <img src="img/whitecar.png" alt="SUV car">
+                    <p class="car-types__title">SUVs</p>
+                    <p class="car-types__text">No obstacles on your way <br> can spoil the trip.</p>
+                    <a href="#rent-form" class="car-types__button">LEARN MORE</a>
+                </div>
+                <div class="car-types__item">
+                    <img src="img/bluecar.png" alt="Sports car">
+                    <p class="car-types__title">Sports Cars</p>
+                    <p class="car-types__text">Feel what true speed <br> and freedom are.</p>
+                    <a href="#rent-form" class="car-types__button">LEARN MORE</a>
+                </div>
+                <div class="car-types__item">
+                    <img src="img/blackcar.png" alt="Luxury car">
+                    <p class="car-types__title">Luxury Cars</p>
+                    <p class="car-types__text">Comfortable cars for <br> demanding clients</p>
+                    <a href="#rent-form" class="car-types__button">LEARN MORE</a>
+                </div>
+            </div>
+        </section>
         <!--Putera Roman-->
-        <section class="meet-fastcar__section">
+        <section id="aboutUs" class="meet-fastcar__section">
             <div class="meet-fastcar__div">
                 <span class="meet-fastcar__header__container">
                     <span class="meet-fastcar__header">
@@ -124,8 +172,7 @@
                 <div class="experience__container_2010">
                     <div class="experience__black-car-element">
                         <img class="img__black-car-element" width="500" height="350"
-                            src="img/car-element-experience.png"
-                            alt="black car element">
+                            src="img/car-element-experience.png" alt="black car element">
                     </div>
                     <span class="experience__subtitle__2010">
                         <h4 class="title__2010">2010</h4>
@@ -137,8 +184,7 @@
                 </div>
                 <div class="experience__container__2012">
                     <div class="experience__blue-car">
-                        <img class="img__blue-car" width="500" height="350"
-                            src="img/blue-car-experience.png"
+                        <img class="img__blue-car" width="500" height="350" src="img/blue-car-experience.png"
                             alt="blue car ">
                     </div>
                     <span class="experience__subtitle__2012">
@@ -151,8 +197,7 @@
                 </div>
                 <div class="experience__container__2015">
                     <div class="experience__cars-chairs">
-                        <img сlass="img__cars-chairs" width="500" height="350"
-                            src="img/car-chair-experience.png"
+                        <img сlass="img__cars-chairs" width="500" height="350" src="img/car-chair-experience.png"
                             alt="car's chair">
                     </div>
                     <span class="experience__subtitle__2015">
@@ -166,8 +211,7 @@
                 </div>
                 <div class="experience__container__2019">
                     <div class="experience__cars-doors">
-                        <img class="img__cars-doors" width="500" height="350"
-                            src="img/car-doors-experience.png"
+                        <img class="img__cars-doors" width="500" height="350" src="img/car-doors-experience.png"
                             alt="car's doors">
                     </div>
                     <span class="experience__subtitle__2019">
@@ -197,7 +241,7 @@
                     <li class="safe-car-rental__list-item">Roadside assistance protection</li>
                     <li class="safe-car-rental__list-item">Different options for financial responsibility</li>
                 </ul>
-                <a class="safe-car-rental__button button" href="" >Learn more</a>
+                <a class="safe-car-rental__button button" href="">Learn more</a>
             </div>
             <div class="safe-car-rental__image-conteiner">
                 <img src="img/cool-blue-car.png" class="safe-car-rental__image" alt="cool-blue-car">
@@ -205,7 +249,8 @@
             <div class="safe-car-rental__statistics">
                 <p class="safe-car-rental__statistics-number">10</p>
                 <h3 class="safe-car-rental__statistics-title">Years of experience</h3>
-                <p class="safe-car-rental__statistics-info">We have the perfect reputation of a luxury car rental service.
+                <p class="safe-car-rental__statistics-info">We have the perfect reputation of a luxury car rental
+                    service.
                 </p>
                 <p class="safe-car-rental__statistics-number">450</p>
                 <h3 class="safe-car-rental__statistics-title">Clients per month</h3>
@@ -218,7 +263,7 @@
             </div>
         </section>
         <!-- part 6. Oleksandr Tulush-->
-        <section id="best_car_month" class="best-offer">
+        <section id="carsOfTheMonth" class="best-offer">
             <div class="best-offer__info">
                 <p id="best-offer" class="best-offer__info-subtitle">— BEST OFFER</p>
                 <!--Яворський Т: я додав id="best-offer" щоб моя кнопка могла послати фокус сюди-->
@@ -262,13 +307,12 @@
                 <form class="send-request__form" action="https://formspree.io/f/mjvznrnl" method="post">
                     <input class="send-request__form-fullname" type="text" placeholder="Enter your full name*"
                         name="full-name">
-                        <div class="send-request__form-fullname-error"></div>
+                    <div class="send-request__form-fullname-error"></div>
                     <input class="send-request__form-tel" type="tel" placeholder="Enter your phone number*"
                         name="phone-number">
-                        <div class="send-request__form-tel-error"></div>
-                    <input class="send-request__form-email" type="email" placeholder="Enter your email*"
-                        name="email">
-                        <div class="send-request__form-email-error"></div>
+                    <div class="send-request__form-tel-error"></div>
+                    <input class="send-request__form-email" type="email" placeholder="Enter your email*" name="email">
+                    <div class="send-request__form-email-error"></div>
                     <input class="send-request__form-message" type="text" placeholder="Type your message"
                         name="message">
                     <input class="send-request__form-button" type="submit" value="Request a qoute">
@@ -333,15 +377,17 @@
         </section>
         <!--The end of Block 9, Block10-->
         <!-- Start block RATES - Yuliia Maiovka -->
-        <section class="rates">
+        <section id="pricing" class="rates">
             <div class="rates__main_content">
-                <p class="rates__section_title">- RATES</p>
+                <p class="rates__section_title">— RATES</p>
                 <h2 class="rates__tittle">Clear Pricing</h2>
                 <p class="rates__subtitle">You pay not for the model of the car but for its class. We offer not only the
                     best
                     luxury cars but also the most favorable conditions for any rental period. </p>
-                <div id="rates__section_details">
-                    <p class="rates__section_title">-SUVs</p>
+            </div>
+            <div class="rates__section_details">
+                <div class="retes__section__item">
+                    <p class="rates__section-title">— SUVs</p>
                     <p class="rates__section_subtitle">$150</h2>
                     <p class="rates__section__subtitle">per day</p>
                     <ul class="rates__icon_list">
@@ -350,20 +396,26 @@
                         <li class="rates__icon_list_item">Suzuki Escudo or similar</li>
                     </ul>
                     <div class="rates__button">
-                        <a href="#SEND-A-REQUEST" class="rates__section-button button">RENT A CAR</a>
+                        <a href="#rent-form" class="rates__section-button button">RENT A CAR</a>
                     </div>
-                    <p class="rates__section__title">-LUXURY</p>
-                    <p class="rates__section_subtitle">$390</h2>
-                    <p class="rates__section__subtitle">per day</p>
+                </div>
+                <div class="retes__section__item">
+                    <div class="rates__section__item_background-image">
+                    <p class="rates__section__title">— LUXURY</p>
+                    <p class="rates__sectionSubtitle">$390</h2>
+                    <p class="rates__section_Subtitle">per day</p>
                     <ul class="rates__icon_list">
-                        <li class="rates__icon_list_item">Lexus SX350</li>
-                        <li class="rates__icon_list_item">Jaguar XF</li>
-                        <li class="rates__icon_list_item">Audi A6 or similar</li>
+                        <li class="rates__icon_list__item">Lexus SX350</li>
+                        <li class="rates__icon_list__item">Jaguar XF</li>
+                        <li class="rates__icon_list__item">Audi A6 or similar</li>
                     </ul>
                     <div class="rates__button">
-                        <a href="#SEND-A-REQUEST" class="rates__section-button button">RENT A CAR</a>
+                        <a href="#rent-form" class="rates__section-button button">RENT A CAR</a>
                     </div>
-                    <p class="rates__section-title">-LUXURY</p>
+                </div>
+                </div>
+                <div class="retes__section__item">
+                    <p class="rates__section-title">— LUXURY</p>
                     <p class="rates__section_subtitle">$500</h2>
                     <p class="rates__section__subtitle">per day</p>
                     <ul class="rates__icon_list">
@@ -372,7 +424,7 @@
                         <li class="rates__icon_list_item">Ford GT or similar</li>
                     </ul>
                     <div class="rates__button">
-                        <a href="#SEND-A-REQUEST" class="rates__section-button button">RENT A CAR</a>
+                        <a href="#rent-form" class="rates__section-button button">RENT A CAR</a>
                     </div>
                 </div>
             </div>
@@ -411,7 +463,7 @@
                             aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="carousel-item active" data-bs-interval="5000">
                             <!-- час автоматичного пролистування виставив екперементально, в макеті такого немає -->
                             <!-- <img src="..." class="d-block w-100" alt="..."> -->
                             <div class="slide__image-container">
@@ -430,7 +482,7 @@
                             </p>
                             <p class="slide__post-date">December 15, 2019</p>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2500">
+                        <div class="carousel-item" data-bs-interval="4000">
                             <!-- час автоматичного пролистування виставив екперементально, в макеті такого немає -->
                             <!-- <img src="..." class="d-block w-100" alt="..."> -->
                             <div class="slide__image-container">
@@ -466,12 +518,34 @@
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#feedback__carousel"
                         data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="carousel-control-prev-icon" aria-hidden="true">
+                            <div class="carousel-control-prev-icon-arrow">
+                                <svg class="carousel-arrow-svg" viewBox="0 0 30 30">
+                                    <defs>
+                                        <path
+                                            d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                                            id="a-1670163316415"></path>
+                                    </defs>
+                                    <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1670163316415"></use>
+                                </svg>
+                            </div>
+                        </span>
                         <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#feedback__carousel"
                         data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="carousel-control-next-icon" aria-hidden="true">
+                            <div class="carousel-control-next-icon-arrow">
+                                <svg class="carousel-arrow-svg" viewBox="0 0 30 30">
+                                    <defs>
+                                        <path
+                                            d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                                            id="a-1670163316415"></path>
+                                    </defs>
+                                    <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1670163316415"></use>
+                                </svg>
+                            </div>
+                        </span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
@@ -574,10 +648,10 @@
             <div class="footer-nav">
                 <ul class="footer-nav__list">
                     <li class="footer-nav__list-item">
-                        <a href="#about_us">About us</a>
+                        <a href="#aboutUs">About us</a>
                     </li>
                     <li class="footer-nav__list-item">
-                        <a href="#best_car_month">Cars of the month</a>
+                        <a href="#carsOfTheMonth">Cars of the month</a>
                     </li>
                     <li class="footer-nav__list-item">
                         <a href="#pricing">Pricing</a>
@@ -603,6 +677,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    <script src="./js/burger-menu.js"></script>
     <script src="./js/send-a-request.js"></script>
     <script src="./js/staff-member-list.js"></script>
 </body>

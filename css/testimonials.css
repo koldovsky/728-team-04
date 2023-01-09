@@ -111,30 +111,51 @@
 
 .carousel-control-next,
 .carousel-control-prev {
-    width: 5%;
-    opacity: 0.75;
+    width: auto;
+    opacity: 0.8;
 }
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-    background-color: #1088e4;
+    background-color: var(--hover-button-color);
     border-radius: 50%;
     width: 24px;
     height: 24px;
     background-size: 100% 12px;
+    background-image: url(none);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control-prev-icon-arrow,
+.carousel-control-next-icon-arrow {
+    box-sizing: border-box;
+    width: 12px;
+    height: 12px;
+    fill: var(--main-light-text-color);
+    margin: auto;
+}
+
+.carousel-control-prev-icon-arrow {
+    transform: rotateY(180deg)
+}
+
+.carousel-arrow-svg {
+    vertical-align: top;
 }
 
 .carousel-indicators [data-bs-target] {
     width: 10px;
     height: 10px;
-    background-color: #4aa4e9;
+    background-color: var(--hover-button-color-before);
     border-radius: 50%;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .carousel-indicators [data-bs-target]:hover {
-    background-color: #1088e4;
+    background-color: var(--hover-button-color);
     opacity: 1;
     transition: none;
 
@@ -160,9 +181,10 @@
         height: 32px;
     }
 
-    .carousel-control-next-icon,
-    .carousel-control-prev-icon {
-        background-size: 100% 16px;
+    .carousel-control-prev-icon-arrow,
+    .carousel-control-next-icon-arrow {
+        width: 20px;
+        height: 20px;
     }
 }
 
@@ -181,5 +203,13 @@
     .carousel-control-next-icon,
     .carousel-control-prev-icon {
         background-size: 100% 24px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .carousel-control-prev-icon-arrow,
+    .carousel-control-next-icon-arrow {
+        width: 30px;
+        height: 30px;
+        fill: var(--hover-button-color);
     }
 }
