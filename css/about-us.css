@@ -9,11 +9,12 @@ img {
 .meet-fastcar__section {
     display: flex;
     flex-direction: column;
-    background-image: url(img/car-about-us.webp);
-    background-position: right 50% bottom 30%;
+    background-image: url(../img/background.car-about-us.webp);
+    background-position: right 80% bottom 30%;
     background-size: 1500px;
     margin: 0px;
     background-repeat: no-repeat;
+    align-items: start;
     
 }
 
