@@ -1,88 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Ubuntu&family=Ubuntu+Condensed&display=swap');
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .meet-fastcar__section {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-image: url("../img/background.car-about-us.webp");
-    background-position: right 50% bottom 45%;
-    align-self: start;
+    flex-direction: column;
+    background-image: url(../img/background.car-about-us.webp);
+    background-position: right 80% bottom 30%;
+    background-size: 1500px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    align-items: start;
+    
+}
+
+.meet-fastcar__div {
+    margin: 100px;
+    margin-right: 20px;
+    width: 370px;
+    height: 700px;
+    text-align: left;
+    border-radius: 1%;
 }
 
 .meet-fastcar__header {
-    color: #f6c43d !important;
+    color: #f6c43d;
+    font-size: 14px;
     font-family: Ubuntu, sans-serif;
-    font-size: 9px;
-    font-weight: 700;
-    text-align: left;
-    font-style: normal;
-    vertical-align: baseline;
-    line-height: 22.4px;
-    letter-spacing: 1.4px;
-   
-}
-
-.meet-fastcar__header__container {
-    display: block;
-    color: #b3b3b3;
+    margin: 15px;
+    letter-spacing: .1em;
+    font-weight: 600;
 }
 
 .about-us__subtitle {
+    font-size: 66px;
+    font-family: Barlow Condensed, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    letter-spacing: 0em;
+    line-height: 52px;
     color: #222;
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    text-align: left;
-    line-height: 40px;
-    overflow-wrap: break-word;
-    letter-spacing: normal;
-    display: inline;
-}
-
-.about-us__container {
-    display: block;
 }
 
 .fat__text__meet-fastcar {
+    font-size: 18px;
+    font-family: Ubuntu, sans-serif;
+    padding-bottom: 15px;
+    letter-spacing: -.018em;
+    line-height: 1.62;
     color: #222;
-    font-family: Ubuntu, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    letter-spacing: -0.324px;
-    line-height: 29.7px;
-    text-align: left;
-}
 
-.about-us__text {
-    font-weight: 800;
-    letter-spacing: -0.324px;
-    line-height: 29.7px;
-    font-style: normal;
-}
-
-.fat__text__meet-fastcar1 {
-    font-family: Ubuntu, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: -0.324px;
-    line-height: 29.7px;
-    vertical-align: baseline;
 }
 
 .meet-fastcar__text {
     color: #898989;
-    display: block;
-    box-sizing: border-box;
-    margin-block-end: 16px;
-    margin-block-start: 16px;
     font-size: 17px;
+    font-family: Ubuntu, sans-serif;
     font-weight: 400;
-    justify-content: flex-start;
     line-height: 27.54px;
+}
+
+.button__about-us {
+    margin-top: 70px;
+}
+
+.contact-us__button {
+    background-color: #1088e4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16.5px;
+    margin: 35px -6px;
+    cursor: pointer;
+    border-radius: 27px;
+    font-weight: 600;
+}
+
+.contact-us__button:hover {
+    background-color: rgb(241, 218, 85);
+}
+
+#more {
+    display: none;
 
 }
 
-.fat__text__meet-fastcar1 {
-    font-weight: 400;
+#btn {
+    color: white;
+    border-radius: 50% 50%;
+    background-color: #1088e4;
+    padding: 5px;
+    border-color: #1088e4;
+    margin-top: 10px;
 }
-
+#btn:hover {
+    border-color: #f6c43d;
+    background-color: #f6c43d;
+    color: white;
+}

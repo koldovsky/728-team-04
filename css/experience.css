@@ -1,4 +1,3 @@
-
 img {
     display: block;
     max-width: 100%;
@@ -147,7 +146,7 @@ img {
     padding: 50px;
     margin: 25px 100px 25px 100px;
     align-items: center;
-    border-radius: 1%
+    border-radius: 1%;
 }
 
 .title__2019 {
@@ -177,4 +176,72 @@ img {
     height: 3px;
     background-color: blue;
     margin-bottom: 10px;
+}
+
+@media (max-width: 766px) {
+    .experience__container__2019 {
+        flex-direction: column;
+        width: 70%;
+        height: auto;
+        margin: auto;
+    }
+
+    .img__cars-doors {
+        min-width: 294px;
+        height: auto;
+        margin: auto;
+        padding-right: 120px;
+    }
+
+    .experience__container__2015 {
+        flex-direction: column;
+        width: 70%;
+        height: auto;
+        margin: auto;
+    }
+
+    .img__cars-chairs {
+        min-width: 270px;
+        height: auto;
+        margin: auto;
+        padding-left: 90px;
+
+    }
+
+    .experience__container__2012 {
+        flex-direction: column;
+        width: 70%;
+        height: auto;
+        margin: auto;
+    }
+
+    .img__blue-car {
+        min-width: 350px;
+        height: auto;
+        margin: auto;
+        padding-right: 120px;
+    }
+
+    .experience__container_2010 {
+        flex-direction: column;
+        width: 70%;
+        height: auto;
+
+        margin: auto;
+    }
+
+    .img__black-car-element {
+        min-width: 250px;
+        height: auto;
+        margin: auto;
+        padding-left: 50px;
+
+    }
+
+    .header__experience {
+        flex-direction: column;
+        width: 60%;
+        height: auto;
+        margin: auto;
+    }
 }
