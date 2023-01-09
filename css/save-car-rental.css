@@ -1,8 +1,5 @@
 .safe-car-rental {
-    display: flex;
-    display: grid;
-    flex-wrap: wrap;
-    margin: 0 15px 0 15px;
+    margin:15px;
     padding: 90px 0 90px 0;
 }
 .safe-car-rental__paragraf{
@@ -51,12 +48,8 @@
     vertical-align: baseline; 
 }
 .safe-car-rental__button{
-    font-family: var(--main-font);
-    text-decoration: none;
     color: var(--main-light-text-color);
     background-color: var(--hover-button-color);
-    border-radius: 20px;
-    margin:auto;
 }
 .safe-car-rental__image-conteiner{
     border-radius: inherit;
@@ -68,8 +61,7 @@
 }
 .safe-car-rental__image{
     width: 300px;
-    height: 500px;
-    
+    height: 500px;    
 }
 .safe-car-rental__statistics{
     text-align: center;
@@ -98,12 +90,10 @@
 }
 @media (min-width:768px) {
     .safe-car-rental{
+        margin: 10px;
+        width: 100%;
         display: flex;
-        display: grid;
-        grid-template-columns: repeat(3, auto);
-        flex-wrap: nowrap;
-        justify-self: center;
-        flex-direction: row;
+        justify-content: space-between;
     }
     .safe-car-rental__image{
         border-radius: inherit;
@@ -114,7 +104,7 @@
     margin-right: auto 
     }
     .safe-car-rental__info{
-        width:70%;
+        width:34%;
         height: auto;
     }
 }
