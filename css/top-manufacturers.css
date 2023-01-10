@@ -51,7 +51,7 @@
     color: var(--light-grey-text-color);
     line-height: 30px;
 }
-.car-logo__item-image {
+.top-manufacturers__autobrands-carrousel .top-manufacturers-slide img {
     /* box-sizing: border-box; */
     background-color: #2f2f2f;
     width: 230px;
