@@ -9,7 +9,13 @@
     
     let currentSlideIdx = 0;
     
-    function renderSlide {
+    function renderSlide() {
+        const slideContainer = document.querySelector('.top-manufacturers__autobrands-carrousel .top-manufacturers-slide');
+        slideContainer.innerHTML = slides [currentSlideIdx];
+    };
 
+    function nextSlide() {
+        currentSlideIdx = (currentSlideIdx + 1) >= slides.length ? 0 : currentSlideIdx + 1;
+        renderSlide();
     };
 })()
