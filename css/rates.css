@@ -199,5 +199,7 @@
     list-style-image: url(../img/Picture\ Ok.jpg);
 }
 .rates__section__item_background-image{
-    background-image: url(../img/picture_rates_background_items_luxury.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),
+     url(../img/picture_rates_background_items_luxury.png);
+    
 }
