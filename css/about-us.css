@@ -21,10 +21,12 @@ img {
 .meet-fastcar__div {
     margin: 100px;
     margin-right: 20px;
-    width: 370px;
+    width: 315px;
     height: 700px;
     text-align: left;
     border-radius: 1%;
+    margin-inline: 50px;
+
 }
 
 .meet-fastcar__header {
@@ -104,4 +106,10 @@ img {
     border-color: #f6c43d;
     background-color: #f6c43d;
     color: white;
+}
+
+@media (min-width:768px) {
+    .meet-fastcar__section{
+        margin-inline: 100px;
+    }
 }

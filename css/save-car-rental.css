@@ -5,11 +5,13 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-inline: 50px;
 }
 .safe-car-rental__info{
     display: flex;
     flex-direction: column;
     margin-block: 50px;
+
 }
 .safe-car-rental__paragraf{
     color: var(--accent-color);
@@ -63,6 +65,10 @@ li.safe-car-rental__list-item:before{
     text-decoration: none;
     border-radius: 50px;
     margin-block: 15px;
+}
+.safe-car-rental__image-conteiner{
+    display: flex;
+    justify-content: center;
 }
 .safe-car-rental__image{ 
 width: 470px; 
